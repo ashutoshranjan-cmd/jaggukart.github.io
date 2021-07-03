@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    image-resolution:inherit;
+}
+header{
+    border:2px solid yellow;
+    border-radius: 10px;
+    background-color: red;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width : 100px;
+    padding:0 25px;
+   
+}
+.banner{
+    display:flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    height:58px;
+    justify-content:flex-start ;
+    align-items: center;
+}
+nav ul li {
+    list-style:none;
+    padding:0 23px;
+}
+nav ul li a{
+    color :white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color :blue;
+    font-weight:bolder;
+ 
+}
+.search{
+    
+    display:flex;
+    align-items: center;
+    margin: 40px;
+    
+}
+.search input{
+    border:2px solid black;
+    margin: 0px;
+    padding:0px 0px 0px 12px;
+    border-radius:5px ;
+    width:400px;
+    height:27px;
+}
+
+
+.container{
+    min-height:calc(100vh - 58px - 9vh);
+}
+.flex{
+    display:flex;
+    height:170px;
+    margin-top:-210px;
+    margin-bottom:35px;
+    width:90vw;
+    color:white;
+    border:2px solid yellow;
+    border-radius: 20px;
+    background-color:  red;
+    margin-left:5vw;
+    padding: 0px;
+   
+
+}
+.flex h4{
+    margin:8px;
+    padding:8px;
+}
+footer{
+    display:flex;
+    border:2px solid yellow;
+    height:6vh;
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+    font-family:'Lato',sans-serif;
+
+}
+.card h2{
+    margin-left:649px;
+}
